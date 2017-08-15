@@ -110,12 +110,12 @@ $("#targetNum").text('Target : ' + targetNum);
 	// Now we need one last function; this will be to reWriteStats and start a new game after completion
     function reWriteStats() {
 
-		var guesses = 0;
-		var c1 = Math.round(Math.random() * 10) + 1;
-		var c2 = Math.round(Math.random() * 10) + 1;
-		var c3 = Math.round(Math.random() * 10) + 1;
-		var c4 = Math.round(Math.random() * 10) + 1;
-		var targetNum = Math.round(Math.random() * 100) + 1;
+		 guesses = 0;
+		 c1 = Math.round(Math.random() * 10) + 1;
+		 c2 = Math.round(Math.random() * 10) + 1;
+		 c3 = Math.round(Math.random() * 10) + 1;
+		 c4 = Math.round(Math.random() * 10) + 1;
+		 targetNum = Math.round(Math.random() * 100) + 1;
 		$("#guesses").text(guesses);
 		$("#targetNum").text('Target : ' + targetNum);
 		console.log(reWriteStats);
