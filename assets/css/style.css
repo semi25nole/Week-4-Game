@@ -1,0 +1,59 @@
+body {
+	background-image: url("../images/dragonstone.jpg");
+	background-repeat: no-repeat;
+}
+
+img {
+	opacity: 1.0;
+}
+
+img:hover {
+	opacity: 0.4;
+}
+
+#head {
+	text-align: center;
+	color: maroon;
+	font-family: papyrus, cursive;
+	font-size: 80px;
+	position: static;
+	background-color: lightgray;
+	opacity: 0.4;
+}
+
+p {
+	position: relative;
+	left: 5%;
+	top: 13%;
+	clear: both;
+}
+
+span {
+	color: maroon;
+	position: relative;
+	left: 55%;
+	font-size: 35px;
+	background-color: lightgray;
+	opacity: 0.4;
+	border-radius: 5px;
+}
+
+#targetNum {
+	position: relative;
+	top: 50px;
+}
+
+#wins {
+	position: relative;
+	top: 25px;
+}
+
+#losses {
+	position: relative;
+	top: 25px;
+}
+
+button {
+	border-radius: 15px;
+	overflow: hidden;
+}
